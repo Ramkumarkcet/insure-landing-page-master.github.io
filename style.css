@@ -1,0 +1,266 @@
+* {
+    font-family: "karla", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'DM Serif Display', serif;
+}
+a{
+    text-decoration: none;
+}
+hr{
+    background-color: hsl(273, 4%, 51%);
+}
+
+/* Navigation bar */
+.nav-link {
+    font-size: 1rem;
+    color: hsl(273, 4%, 51%);
+}
+
+.nav-item .btn:hover {
+    color: hsl(270, 9%, 17%);
+}
+
+.nav-item .btn {
+    border: 1px solid hsl(270, 9%, 17%);
+    border-radius: 0;
+    color: hsl(273, 4%, 51%);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-item .btn:hover {
+    background: hsl(270, 8%, 17%);
+    color: #ffffff;
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width: 64rem) {
+    .navbar {
+        padding: 0;
+    }
+
+    .navbar-brand, .navbar-toggler {
+        padding: 1.5rem;
+    }
+
+    .navbar-nav {
+        height: 100vh;
+    }
+
+    .navbar-collapse {
+        width: 100%;
+        background-color: hsl(256, 26%, 20%);
+    }
+
+    .nav-item {
+        margin-top: 2rem;
+        text-align: center;
+    }
+
+    .nav-link {
+        text-decoration: none;
+
+        color: hsl(0, 0%, 98%);
+    }
+
+    .nav-item:last-child {
+        border: 1px solid #ffffff;
+        transition: all 0.3s ease-in-out;
+    }
+}
+
+/* Hero section */
+.main {
+    background-color: hsl(256, 26%, 20%);
+    padding: 130px;
+}
+
+.main .intro-text {
+    display: block;
+    margin: auto;
+}
+
+.main hr {
+    width: 20%;
+    border-color: #ffffff;
+
+}
+
+.main h1 {
+    font-size: 4.5rem;
+}
+
+.main h1, p {
+    color: #ffffff;
+    max-width: 35rem;
+}
+
+.main .intro-btn {
+    margin: 3rem 0.7rem;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    background-color: hsl(256, 26%, 20%);
+    color: #ffffff;
+}
+
+@media screen and (max-width: 64rem) {
+    .main {
+        padding: 10px;
+    }
+    .main .intro-text{
+        text-align: center;
+    }
+    .main h1{
+        font-size: 2.7rem;
+
+    }
+}
+
+
+/*Service area*/
+#service {
+    margin-top: 12rem;
+}
+
+#service hr {
+    width: 20%;
+    margin-left: -0.1rem;
+}
+
+#service h1 {
+    margin-top: 2rem;
+    font-size: 3rem;
+}
+
+#service .row {
+    margin-top: 3.2rem;
+}
+
+#service .card {
+    border: 0;
+}
+
+#service .card-img-top {
+    width: 5rem;
+    height: 5rem;
+}
+#service .card .card-body{
+    padding-left: 0;
+}
+#service .card .card-body p {
+    color: hsl(273, 4%, 51%);
+}
+
+@media screen and  (max-width: 64rem){
+    #service{
+        margin-top: 8rem;
+        text-align: center;
+    }
+    #service .card-img-top{
+        margin: auto;
+    }
+    #service hr{
+        width: 50%;
+        margin: auto;
+
+    }
+}
+
+/* form area */
+
+#hww{
+    margin-top: 8rem;
+}
+
+#hww .hww{
+    background-color: hsl(256, 26%, 20%);
+    padding: 4rem;
+    color: #ffffff;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+#hww .hww h3{
+    width: 50%;
+    font-size: 3.5rem;
+}
+
+#hww .hww button{
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    padding: 0.7rem;
+    color: #ffffff;
+}
+
+#hww .hww button:hover{
+    background-color: #ffffff;
+    color: hsl(256, 26%, 20%);
+}
+
+@media screen and (max-width: 64rem){
+    #hww .hww {
+        display: block;
+        text-align: center;
+    }
+    #hww .hww h3{
+        width: 100%;
+        font-size: 2.5rem;
+        text-align: center;
+    }
+    #hww .hww button{
+        margin-top: 1rem;
+    }
+}
+/* Footer area*/
+footer{
+    margin-top: 8rem;
+}
+
+footer .footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .social-media a {
+    margin-left: 1rem;
+}
+
+footer .footer-nav h6{
+    color: hsl(273, 4%, 51%);
+    font-weight: 600;
+}
+
+footer .footer-nav a{
+    display: block;
+    margin: 10px 0;
+    font-weight: 700;
+    text-decoration: none;
+    color: hsl(256, 26%, 20%);
+}
+
+@media screen and (max-width: 64rem) {
+    footer .footer-text {
+        text-align: center;
+        padding: 1.3rem;
+        margin-top: 2rem;
+        display: block;
+    }
+
+    footer .footer-text a img {
+        margin: 1rem 0;
+    }
+
+    footer .footer-nav a, h6 {
+        text-align: center;
+    }
+
+    footer .footer-nav a {
+        margin: 1.5rem;
+    }
+
+    footer .footer-nav h6 {
+        margin: 2rem 0;
+    }
+}
